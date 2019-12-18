@@ -131,7 +131,7 @@ setup(
         'Programming Language :: Python :: Implementation :: CPython',
         'Programming Language :: Python :: Implementation :: PyPy',
     ],
-    package_data={'labelme': ['icons/*', 'config/*.yaml']},
+    package_data={'labelme': ['icons/*', 'config/*.yaml', '*.so']},
     entry_points={
         'console_scripts': [
             'labelme=labelme.main:main',
